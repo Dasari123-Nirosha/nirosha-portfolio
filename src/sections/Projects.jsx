@@ -82,6 +82,56 @@ const projects = [
     demo: "https://startling-sorbet-066ac2.netlify.app/",
     tech: ["React", "JavaScript", "CSS", "React Router"],
   },
+    {
+    title: "Style Nest — E-Commerce Management System",
+    category: "E-commerce",
+    description:
+      "A complete e-commerce frontend application featuring product browsing, search, sorting, category and price filters, product details, shopping cart management, checkout, user profiles, order history, and admin product management. Built with reusable components, responsive layouts, form validation, and localStorage persistence.",
+    image:
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80",
+    demo: "https://style-nestwebsite.netlify.app/",
+    tech: ["React", "Vite", "Tailwind CSS", "React Router", "localStorage"],
+  },
+    {
+    title: "Employee Management System",
+    category: "Human Resources",
+    description:
+      "A responsive employee management application featuring an admin dashboard, employee directory, employee profiles, department management, leave request approvals, and attendance summaries. Includes CRUD operations, search, filtering, sorting, pagination, form validation, confirmation dialogs, theme preferences, and localStorage-based data persistence.",
+    image:
+      "https://www.expometalica.com/wp-content/uploads/2021/08/Employee-Management.jpg",
+    demo: "https://employee-management-systemdashboard.netlify.app/",
+    tech: ["React", "JavaScript", "CSS", "React Router", "localStorage"],
+  },
+    {
+    title: "EduVerse — Learning Management System",
+    category: "Education",
+    description:
+      "A responsive Learning Management System featuring a student dashboard, course catalogue, course details, lesson navigation, quiz assessments, student profiles, and admin course management. Includes course enrollment, lesson completion tracking, quiz score calculation, course search, sorting, progress indicators, and localStorage-based learning progress persistence.",
+    image:
+      "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80",
+    demo: "https://eduverselms.netlify.app/",
+    tech: ["React", "JavaScript", "CSS", "React Router", "localStorage"],
+  },
+    {
+    title: "Skyline Events — Event Management Website",
+    category: "Event Management",
+    description:
+      "A responsive event discovery and registration website featuring upcoming events, event banners, dates, venues, pricing, category filters, search functionality, event details, registration forms, and a My Events section. Designed with interactive navigation, reusable components, and a responsive layout for a seamless user experience.",
+    image:
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+    demo: "https://skyline-eventstask.netlify.app/",
+    tech: ["React", "JavaScript", "CSS", "React Router", "Firebase"],
+  },
+    {
+    title: "Hilton Hotel Booking Management System",
+    category: "Hotel Management",
+    description:
+      "A responsive hotel booking management application featuring a hotel landing page, room catalogue, room details, destination and date-based search, booking forms, booking confirmation, My Bookings, and an admin management dashboard. Includes date and guest validation, booking price calculations, booking creation and cancellation, room and pricing management, customer profiles, responsive navigation, and localStorage-based booking persistence.",
+    image:
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+    demo: "https://hilton-hotel-booking.netlify.app/",
+    tech: ["React", "JavaScript", "CSS", "Firebase", "Firestore"],
+  },
 ];
 
 function ProjectPreview({ project }) {
